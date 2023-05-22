@@ -1,0 +1,40 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color:white;
+
+}
+.Header__logo {
+    height: 25px;
+    object-fit: contain;
+    margin: 20px;
+}
+.Header__input {
+    align-items: center;
+    display: flex;
+    width: 40%;
+    border: 1px solid black;
+}
+.Header__right {
+    align-items: center;
+    display: flex;
+}
+ .Header__input > input {
+ flex:1;
+ border: none;
+}
+.Header___inputButton {
+    width: 50px !important;
+    background-color: aliceblue;
+    border-left: 1px solid lightgray ;
+
+}
+.Header__icon {
+    display: flex;
+    align-items: center;
+}
